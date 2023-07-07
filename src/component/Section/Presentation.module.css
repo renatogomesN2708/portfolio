@@ -1,0 +1,10 @@
+.presentation {
+    text-align: left;
+    margin-left: 6%;
+}
+.presentation h1 {
+    font-size: 75px;
+}
+.presentation p {
+    font-size: 30px;
+}

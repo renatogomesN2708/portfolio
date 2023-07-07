@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('img/Pplaneta-ficticio-com-ceu-noturno-colorido-estrelas-e-nebulosa\ 1.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: aliceblue;
 }
 
 code {

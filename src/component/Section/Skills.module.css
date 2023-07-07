@@ -1,0 +1,19 @@
+.skills {
+    margin-left: 10em;
+    margin-top: 3em;
+    font-size: 25px;
+    background: #01091CBF;
+    Width: 1440px;
+    Height:420px;
+    border-radius: 30px;
+}
+.skills h1 {
+    font-size: 66px;
+}
+.skills p {
+    font-size: 30px;
+}
+.skills img {
+    margin: 10px 40px;
+    width: 150px;
+}
