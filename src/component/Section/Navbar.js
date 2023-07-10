@@ -6,11 +6,12 @@ import Nav from 'react-bootstrap/Nav'
 function Navbar() {
     return (
         <div className={styles.navbar}>
-           <ul>
-            <li><Nav.Link href='#Presentetion'>Apresentação</Nav.Link></li>
-            <li><Nav.Link href='#skills'>Habilidades</Nav.Link></li>
-            <li><Nav.Link href='#projects'>Projetos</Nav.Link></li>
-           </ul>
+               <ul>
+                <li><Nav.Link href='#Presentetion'>Apresentação</Nav.Link></li>
+                <li><Nav.Link href='#skills'>Habilidades</Nav.Link></li>
+                <li><Nav.Link href='#projects'>Projetos</Nav.Link></li>
+               </ul>
+               <ul/>
            <ul>
             <li>
                 <a href="https://www.instagram.com/renatogomes_1904/" target='_blank'>
