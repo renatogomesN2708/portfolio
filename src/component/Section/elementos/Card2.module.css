@@ -6,6 +6,7 @@
 .Card2 img {
     width: 700px;
     margin: 0px 10px;
+
 }
 .Card2 img:hover {
     transform: translateY(-10px);
