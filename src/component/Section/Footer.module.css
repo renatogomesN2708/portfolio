@@ -1,0 +1,18 @@
+.footer {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    padding: 2em;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none; 
+}
+
+.footer li {
+    margin: 10px;
+}
+.footer a {
+    color: white !important;
+}
