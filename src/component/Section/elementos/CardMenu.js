@@ -10,7 +10,7 @@ function C3() {
                 <h3>Cardapio</h3>
                 <p>Tecnologia: HTML, CSS, JS</p>
                 <p>Projeto desenvolvido para após a finalização do pedido ser guiado para o Whatsapp</p>
-                    <a href="https://github.com/renatogomesN2708/CCXP2023-1" target='_blank'>
+                    <a href="https://github.com/renatogomesN2708/portfolio" target='_blank'>
                         <ButtonB text='Acesse o repositorio'></ButtonB>
                     </a>
             </div>
