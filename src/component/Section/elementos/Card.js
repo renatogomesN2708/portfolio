@@ -2,11 +2,21 @@
 import styles from '../elementos/Card.module.css'
 import coutdown from '../../../img/Projetos/Coutdown.svg'
 import ButtonB from '../elementos/ButtonB'
+import {useState, useEffect} from 'react'
 
 function Card1() {
+    const [info, setInfo] = useState(false)
+
+    function infoOn() {
+        setInfo(true)
+    }
+    function infoOff(){
+        setInfo(false)
+    }
     return (
-        <div className={styles.Card}>
-            <img src={coutdown}/>
+        <div onMouseLeave={infoOff} className={styles.Card}>
+            <img src={coutdown} onMouseEnter={infoOn}/>
+            {info === true && (
             <div>
                 <h3>CCXP 2023</h3>
                 <p>Tecnologia: HTML, CSS, JS</p>
@@ -15,6 +25,9 @@ function Card1() {
                         <ButtonB text='Acesse o repositorio'></ButtonB>
                     </a>
             </div>
+            )
+
+        }
         </div>
         
     )

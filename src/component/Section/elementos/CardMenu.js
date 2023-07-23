@@ -1,11 +1,22 @@
 import styles from '../elementos/Card3.module.css'
 import cardapio from '../../../img/Projetos/Cardapio.svg'
 import ButtonB from '../elementos/ButtonB'
+import {useState} from 'react'
 
 function C3() {
+    const [info, setInfo] = useState(false)
+
+    function infoOn() {
+        setInfo(true)
+    }
+    function infoOff() {
+        setInfo(false)
+    }
     return (
-        <div className={styles.Card3}>
-            <img src={cardapio}/>
+        <div onMouseLeave={infoOff} className={styles.Card3}>
+            <img src={cardapio} onMouseEnter={infoOn}/>
+            
+            {info === true && (
             <div>
                 <h3>Cardapio</h3>
                 <p>Tecnologia: HTML, CSS, JS</p>
@@ -14,6 +25,7 @@ function C3() {
                         <ButtonB text='Acesse o repositorio'></ButtonB>
                     </a>
             </div>
+            )}
         </div>
         
     )

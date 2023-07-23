@@ -2,11 +2,23 @@
 import styles from '../elementos/Card2.module.css'
 import Byecar from '../../../img/Projetos/ByeCar.svg'
 import ButtonB from '../elementos/ButtonB'
+import { useState } from 'react'
 
 function C2() {
+    const [info, setInfo] = useState(false)
+
+    function infoOn() {
+        setInfo(true) 
+    }
+    function infoOff() {
+        setInfo(false)
+    }
+
     return (
-        <div className={styles.Card2}>
-            <img src={Byecar}/>
+        <div onMouseLeave={infoOff} className={styles.Card2}>
+            <img src={Byecar} onMouseEnter={infoOn}/>
+            {info === true && (
+
             <div>
                 <h3>ByeCar DNC</h3>
                 <p>Tecnologia: HTML, CSS, JS</p>
@@ -15,6 +27,7 @@ function C2() {
                         <ButtonB text='Acesse o repositorio'></ButtonB>
                     </a>
             </div>
+            )}
         </div>
         
     )
