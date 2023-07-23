@@ -1,5 +1,6 @@
 
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa"
+import { FaLinkedin, FaGithub } from "react-icons/fa"
+import insta from '../../img/insta.png'
 import style from '../Section/Footer.module.css'
 
 function Footer() {
@@ -8,7 +9,7 @@ function Footer() {
              <ul>
             <li>
                 <a href="https://www.instagram.com/renatogomes_1904/" target='_blank'>
-                <FaInstagram size={25}/>
+                <img src={insta}/>
                 </a>
             </li>
             <li>
