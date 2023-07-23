@@ -1,6 +1,7 @@
 
-import { FaLinkedin, FaGithub } from "react-icons/fa"
+import gitHub from '../../img/gtihub.png'
 import insta from '../../img/insta.png'
+import linkedin from '../../img/linkedin.png'
 import style from '../Section/Footer.module.css'
 
 function Footer() {
@@ -14,12 +15,12 @@ function Footer() {
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/renato-gomes-045b67176/" target='_blank'>
-                <FaLinkedin size={25}/>
+                <img src={linkedin}/>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/renatogomesN2708" target='_blank'>
-                <FaGithub size={25}/>
+                <img src={gitHub}/>
                 </a>
             </li>
            </ul>
