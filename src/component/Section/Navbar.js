@@ -1,6 +1,8 @@
 
 import styles from './Navbar.module.css'
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa"
+import insta from '../../img/insta.png'
+import linkedin from '../../img/linkedin.png'
+import git from '../../img/gtihub.png'
 import Nav from 'react-bootstrap/Nav'
 
 function Navbar() {
@@ -15,17 +17,17 @@ function Navbar() {
            <ul>
             <li>
                 <a href="https://www.instagram.com/renatogomes_1904/" target='_blank'>
-                <FaInstagram size={30}/>
+                <img src={insta}/>
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/renato-gomes-045b67176/" target='_blank'>
-                <FaLinkedin size={30}/>
+                <img src={linkedin}/>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/renatogomesN2708" target='_blank'>
-                <FaGithub size={30}/>
+                <img src={git}/>
                 </a>
             </li>
            </ul>

@@ -16,3 +16,6 @@
 .navbar a {
     color: white !important;
 }
+.navbar img{
+    width: 30px;
+}

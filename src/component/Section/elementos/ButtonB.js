@@ -1,5 +1,6 @@
 
 import styles from './ButtonB.module.css'
+
 function ButtonB({text, link}) {
     return(
 

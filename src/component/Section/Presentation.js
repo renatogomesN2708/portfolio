@@ -5,10 +5,10 @@ import ButtonA from './elementos/ButtonA'
 function Presentation() {
 
     const [text, setText] = useState('')
-    const toRotate = ['eu sou Renato Gomes!', ' e sou Desenvolvedor Front-End.']
-    const [loop, setLoop] = useState(0)
+    const toRotate = ['Renato Gomes!', 'Desenvolvedor Front-End.']
+    const [loop, setLoop] = useState(50)
     const [deletar, setDeletar] = useState(false)
-    const period = 300
+    const period = 220
     const [delta, setDelta] = useState(100)
     
 
@@ -41,7 +41,7 @@ function Presentation() {
     return (
         <div className={styles.presentation} id="Presentation">
             <p><strong>Bem-vindo ao meu Portfolio</strong></p>
-            <h1>Olá, {text}</h1>
+            <h1>Olá, eu sou {text}</h1>
             <p>
                 Sou um apaixonado por tecnologia e soluções inovadoras.<br/>
                 Como Desenvolvedor, eu tenho o compromisso de resolver<br/>

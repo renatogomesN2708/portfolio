@@ -1,16 +1,16 @@
-
-import gitHub from '../../img/gtihub.png'
 import insta from '../../img/insta.png'
 import linkedin from '../../img/linkedin.png'
+import git from '../../img/gtihub.png'
 import style from '../Section/Footer.module.css'
 
 function Footer() {
     return (
         <div className={style.footer}>
-             <ul>
+           <ul>
             <li>
                 <a href="https://www.instagram.com/renatogomes_1904/" target='_blank'>
-                <img src={insta}/>
+                <img src={insta}
+                />
                 </a>
             </li>
             <li>
@@ -20,7 +20,7 @@ function Footer() {
             </li>
             <li>
                 <a href="https://github.com/renatogomesN2708" target='_blank'>
-                <img src={gitHub}/>
+                <img src={git}/>
                 </a>
             </li>
            </ul>
