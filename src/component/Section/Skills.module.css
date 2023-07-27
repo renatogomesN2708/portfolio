@@ -17,3 +17,27 @@
     margin: 10px 40px;
     width: 150px;
 }
+@media screen and (max-width: 500px) {
+    
+    .skills img {
+        width: 28px;
+        margin: 15px 10px; 
+        gap: 125px;
+    }
+        .skills h1 {
+            font-size: 18px;
+            margin-bottom: -5px;
+        }
+    .skills p {
+        margin-bottom: -5px;
+        font-size: 10px;
+    }
+    .skills {
+        margin-top: -10px;
+        margin-left: 30px;
+        width: 340px;
+        height: 100px;
+    } 
+   
+    
+}

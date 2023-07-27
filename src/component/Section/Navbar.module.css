@@ -19,3 +19,19 @@
 .navbar img{
     width: 30px;
 }
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        margin-top: -15px;
+        margin-left: -50px;
+        font-size: 11.5px;
+    }
+    .navbar img {
+        width: 15px;
+        margin-left: -5.5em;
+    }
+    .navbar ul {
+        font-size: 10px;
+        margin-left: 1.5px;
+    }
+}
