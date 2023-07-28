@@ -1,2 +1,2 @@
 # portfolio
-link do projeto: http://cardapio-whats.netlify.app/
+link do projeto: https://portfolio-react-renatogomes.vercel.app/
