@@ -12,14 +12,21 @@
 }
 @media screen and (max-width: 500px) {
     .projects h1 {
-        font-size: 20px;
-        margin-top: -55px;
+        font-size: 15px;
+        margin-top: -65px;
+        margin-bottom: -10px;
     }
     .projects img {
         width: 10px;
         
     }
+    .projects section {
+        margin-top: 1em;
+    }
     .projects button {
-       color: red;
+        color: #74FAC0;
+        font-size: 5px;
+        margin-left: -25px;
+        margin-bottom: -1px;
     }
 }

@@ -19,3 +19,25 @@
 .footer img {
     width: 30px;
 }
+@media screen and (max-width: 500px) {
+
+    .footer {
+        margin-top: -35px;
+    }
+    .footer p {
+        margin-top: -27px;
+        font-size: 10px;
+        margin-left: -15px;
+    }
+    .footer ul {
+        margin-top: 2px;
+        margin-left: -32px;
+        
+    }
+    .footer img {
+       width: 20px;
+       margin-top: -40px;
+       margin-left: -10px;
+    }
+
+}

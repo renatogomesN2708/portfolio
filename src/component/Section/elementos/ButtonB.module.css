@@ -13,3 +13,8 @@
     background-color: #000000;
     transform: translatey(-5px);
 }
+@media screen and (max-width: 500px) {
+    .btn {
+        font-size: 7px;
+    }
+}

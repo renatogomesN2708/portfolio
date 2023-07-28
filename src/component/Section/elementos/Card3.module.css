@@ -30,3 +30,43 @@
      font-size: 25px;
      font-weight: 750;
  }
+ @media screen and (max-width: 500px) {
+    .Card3 img {
+        display: block;
+        width: 110px;
+        margin-left: -1.5em;
+        margin-bottom: -1.5em;
+    }
+    .Card3 img:hover {
+        width: 150px;
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
+    .Card3 div {
+        width: 120px;
+        height: 70px;
+        margin-top: -5px;
+        margin-bottom: -3em;
+
+    }
+    .responsive h3 {
+        font-size: 10px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .responsive h5 {
+        margin-top: -6px;
+        margin-bottom: -3px;
+        font-size: 8px; 
+    }
+    .responsive p{
+        font-size: 7px;
+        margin-bottom: -10px;
+  
+    }
+    .responsive button {
+        color: #74FAC0;
+        font-size: 5px;
+        margin-left: 1px;
+    }
+}

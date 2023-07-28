@@ -17,7 +17,7 @@ function C3() {
             <img src={cardapio} onMouseEnter={infoOn}/>
             
             {info === true && (
-            <div>
+            <div className={styles.responsive}>
                 <h3>Cardapio</h3>
                 <p>Tecnologia: HTML, CSS, JS</p>
                 <p>Projeto desenvolvido para após a finalização do pedido ser guiado para o Whatsapp</p>

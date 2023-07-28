@@ -26,6 +26,12 @@
 }
 @media screen and (max-width: 500px) {
     
+    .skills {
+        margin-top: -18px;
+        margin-left: 30px;
+        width: 340px;
+        height: 90px;
+    } 
     .skills img {
         width: 28px;
         margin: 15px 10px; 
@@ -45,13 +51,6 @@
     .skills p {
         margin-bottom: -5px;
         font-size: 10px;
-    }
-    .skills {
-        margin-top: -10px;
-        margin-left: 30px;
-        width: 340px;
-        height: 100px;
-    } 
-   
+    }   
     
 }

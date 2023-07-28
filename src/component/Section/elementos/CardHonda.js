@@ -19,7 +19,7 @@ function C2() {
             <img src={Byecar} onMouseEnter={infoOn}/>
             {info === true && (
 
-            <div>
+            <div className={styles.responsive}>
                 <h3>ByeCar DNC</h3>
                 <p>Tecnologia: HTML, CSS, JS</p>
                 <p>Projeto desenvolvido pra alternar duas imagens diferentes usando JavaScript.</p>
